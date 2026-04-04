@@ -1,29 +1,21 @@
 # ord.net Public Docs
 
-Starlight app for the public `docs.ord.net` site.
-
-## Scope
-
-- Public docs content lives in `src/content/docs/`.
-- The repo's top-level `docs/` tree stays internal-only and is not published from this app.
-- This app deploys independently from the Hetzner-hosted marketplace runtime.
+Starlight app for the public `docs.ord.net` site. Deploys to Cloudflare Workers.
 
 ## Commands
 
-Run these from the repo root:
-
 | Command | Action |
 | :--- | :--- |
-| `npm --prefix apps/public-docs install` | Install docs app dependencies |
-| `npm run docs:dev` | Start the Starlight dev server |
-| `npm run docs:build` | Build the static docs site |
-| `npm run docs:check` | Run Astro checks and a production build |
+| `npm install` | Install dependencies |
+| `npm run dev` | Start the Starlight dev server |
+| `npm run build` | Build the static docs site |
+| `npm run check` | Run Astro checks and a production build |
+| `npm run deploy` | Build and deploy to Cloudflare Workers |
 
-## Cloudflare Workers Builds
+## Cloudflare Workers
 
 Configure the Cloudflare project with:
 
-- Root directory: `apps/public-docs`
 - Build command: `npx astro build`
 - Deploy command: `npx wrangler deploy --domain docs.ord.net`
 - Custom domain: `docs.ord.net`
