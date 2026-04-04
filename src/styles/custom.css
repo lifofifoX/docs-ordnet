@@ -1,0 +1,5 @@
+@layer starlight.core {
+	.hero .copy > * {
+		max-width: 80ch;
+	}
+}
