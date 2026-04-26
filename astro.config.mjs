@@ -16,7 +16,7 @@ export default defineConfig({
 			},
 			favicon: '/favicon.svg',
 			sidebar: [
-				{ label: 'Getting Started', slug: 'getting-started' },
+				{ label: 'Getting Started', link: '/' },
 				{
 					label: 'Creator Guides',
 					autogenerate: { directory: 'guides' },
