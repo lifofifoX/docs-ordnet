@@ -1,5 +1,5 @@
 ---
-title: Submitting a Gallery or Parent
+title: Listing a Collection
 description: Submit a gallery inscription to ord.net for verification and trading review.
 sidebar:
   order: 3

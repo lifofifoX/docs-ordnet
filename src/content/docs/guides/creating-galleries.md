@@ -106,4 +106,4 @@ A proper gallery should:
 ## After Creation
 
 Once the gallery inscription is created, its inscription ID will be used for submission and review,
-covered in [Submitting a Gallery or Parent](/guides/submitting-a-gallery/).
+covered in [Listing a Collection](/guides/listing-a-collection/).
