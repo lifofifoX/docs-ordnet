@@ -2,7 +2,7 @@
 title: Creating a Gallery
 description: Create a gallery inscription for ord.net verification and trading review.
 sidebar:
-  order: 2
+  order: 3
 ---
 
 This guide is for creators, or anyone else, who wants to create a gallery for a collection. After

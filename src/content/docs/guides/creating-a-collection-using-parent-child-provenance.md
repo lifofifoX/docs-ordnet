@@ -2,7 +2,7 @@
 title: Creating a Collection
 description: Create a collection using parent/child provenance for ord.net verification and trading review.
 sidebar:
-  order: 1
+  order: 2
 ---
 
 A parent/child collection uses one parent inscription to establish

@@ -2,8 +2,10 @@
 title: Listing a Collection
 description: Submit a gallery inscription to ord.net for verification and trading review.
 sidebar:
-  order: 3
+  order: 1
 ---
+
+◉RD only uses parent/child or galleries for collection data, relying strictly on on-chain data.
 
 To submit a previously inscribed gallery (or parent, if parent/child provenance was used when
 creating your collection) to [ord.net](https://ord.net/) for verification and trading, we use
