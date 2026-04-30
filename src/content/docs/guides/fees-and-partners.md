@@ -14,13 +14,13 @@ Maker fees are always 1% (min. 1000 sats) of the listing price, and taker fees a
 2.5% cut on every sale with our partner collections as part of the sale transaction. There are no
 additional fees for partner collections.
 
+## Partner Expectations
+
+Partner collections are expected, at minimum, to link to their collections on ◉RD in their
+socials, where feasible, as well as make an announcement tweet.
+
 If you are interested in becoming a partner collection, please open a ticket in our
 [DISC◉RD server](https://discord.gg/Jvt2twkG).
 
 Please note that our partner collections program is introductory, discretionary, and is subject to
 change at any time.
-
-## Expectations
-
-Partner collections are expected, at minimum, to link to their collections on ◉RD in their
-socials, where feasible, as well as make an announcement tweet.
