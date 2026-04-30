@@ -19,6 +19,9 @@ additional fees for partner collections.
 Partner collections are expected, at minimum, to link to their collections on ◉RD in their
 socials, where feasible, as well as make an announcement tweet.
 
+The partner collections program is intended for original teams and artists. Community run projects
+(CTOs) typically aren't a good fit.
+
 If you are interested in becoming a partner collection, please open a ticket in our
 [DISC◉RD server](https://discord.gg/Jvt2twkG).
 
