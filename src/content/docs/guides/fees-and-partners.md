@@ -13,5 +13,8 @@ Maker fees are always 1% (min. 1000 sats) of the listing price, and taker fees a
 ◉RD does not have royalties. Instead, ◉RD has partners. We share 1% (min. 1000 sats) from our
 2.5% cut on every sale with our partners. There are no additional fees for partnered collections.
 
-If you are interested in becoming a partnered creator, please reach out to @lifofifo or @t_clow
-in the [◉RD Discord server](https://discord.gg/Jvt2twkG).
+If you are interested in becoming a partnered creator, please open a ticket in our
+[DISC◉RD server](https://discord.gg/Jvt2twkG).
+
+Please note that our Partners program is introductory, discretionary, and is subject to change at
+any time.
