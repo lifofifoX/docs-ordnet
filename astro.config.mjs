@@ -21,6 +21,10 @@ export default defineConfig({
 					label: 'Creator Guides',
 					autogenerate: { directory: 'guides' },
 				},
+				{
+					label: 'Technicals',
+					autogenerate: { directory: 'technicals' },
+				},
 			],
 		}),
 	],
