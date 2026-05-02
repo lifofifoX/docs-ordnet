@@ -74,6 +74,9 @@ are all fixed before broadcast.
 The buyer only signs the final sale transaction. As a result, the buyer can purchase one inscription
 or sweep multiple inscriptions with a single transaction signature flow.
 
+The marketplace fee output is split into two to land the inscription at the correct sat offset for
+the buyer. The sale transaction also creates the same number of new anchor UTXOs as it consumes.
+
 ## Anchor UTXOs
 
 [ORD.NET](https://ord.net) includes anchor UTXOs in the seller's `TX1` so the inscription can move
