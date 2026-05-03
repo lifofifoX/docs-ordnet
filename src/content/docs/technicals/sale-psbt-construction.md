@@ -39,7 +39,8 @@ If the buyer cancels the sale transaction while it's pending, [ORD.NET](https://
 automatically RBFs `TX1` by spending the anchor UTXO assigned to the listing, invalidating the
 transfer before the inscription moves into the passthrough output.
 
-`TX3` exists to make recovery easy in an unlikely worst-case scenario.
+`TX3` exists to make recovery easy in the unlikely event that the inscription moves into the 2-of-2
+passthrough output without an attached sale.
 
 ## Sale
 
