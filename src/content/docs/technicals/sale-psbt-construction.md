@@ -35,7 +35,7 @@ the finality of the sale transaction.
 
 ### Recovery path
 
-If the buyer cancels the sale transaction before it is broadcast, [ORD.NET](https://ord.net)
+If the buyer cancels the sale transaction while it's pending, [ORD.NET](https://ord.net)
 automatically RBFs `TX1` by spending the anchor UTXO assigned to the listing, invalidating the
 transfer before the inscription moves into the passthrough output.
 
