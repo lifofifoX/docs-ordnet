@@ -23,7 +23,7 @@ The partner collections program is intended for original teams and artists. Comm
 (CTOs) typically aren't a good fit.
 
 If you are interested in becoming a partner collection, please open a ticket in our
-[DISC◉RD server](https://discord.gg/Jvt2twkG).
+[DISC◉RD server](https://discord.gg/njqA4F65Y).
 
 Please note that our partner collections program is introductory, discretionary, and is subject to
 change at any time.
