@@ -16,7 +16,7 @@ The policy lets the seller unilaterally recover the inscription at any time, and
 Ledger registers the policy as `ORD.NET Passthrough Policy`:
 
 ```text
-tr(@0/**, multi_a(2,@1/**, @2/**))
+tr(@0/**, multi_a(2, @1/**, @2/**))
 ```
 
 - `@0` seller key-path key (Ledger account `m/86'/0'/n'`)
