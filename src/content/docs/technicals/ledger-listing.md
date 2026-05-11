@@ -13,14 +13,22 @@ Once the policy is registered, the seller can list inscriptions held on the Ledg
 
 The policy lets the seller unilaterally recover the inscription at any time, and requires both the seller and [ORD.NET](https://ord.net) to co-sign the sale.
 
+Ledger registers the policy as `ORD.NET Passthrough Policy`:
+
 ```text
-tr(@0/**, multi_a(2, @1/**, @2/**))
+tr(@0/**, multi_a(2,@1/**, @2/**))
 ```
 
 - `@0` seller key-path key (Ledger account `m/86'/0'/n'`)
 - `@1` seller script-path key (Ledger account `m/86'/0'/(n+1)'`)
-- `@2` [ORD.NET](https://ord.net) co-signer key:
+- `@2` [ORD.NET](https://ord.net) co-signer key-info:
 
   ```text
-  d2dc3222298e2a5f4e1c7d702fae2bcf7821cc0a095a478b95c62195b0df7398
+  [52266fd1/86'/0'/0']xpub6D1FCxdiqLnCTPXY8ddYjjms3dvnLeD7zNtNPCXG9cKW2A7bdAR5fkjz5Mhzxm85cQX2VKuPAaBoiQuBXWLWJwsiSjgxQ3cKbVGqkpzNre2
   ```
+
+This key-info derives the [ORD.NET](https://ord.net) public key used in the tapscript:
+
+```text
+d2dc3222298e2a5f4e1c7d702fae2bcf7821cc0a095a478b95c62195b0df7398
+```
