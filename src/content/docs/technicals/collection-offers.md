@@ -85,8 +85,11 @@ cannot be spent again until `144` blocks (~1 day) later, capping how many offers
 
 The cap is enforced by the ICP gate: an immutable Internet Computer canister that signs the offer
 input only when the admission UTXO has the correct tier scriptPubKey, sequence, and value.
-Because the canister is immutable and its only caller is a single hardcoded principal, the rate
-limit cannot be raised by [ORD.NET](https://ord.net) or anyone else.
+
+The canister's policy cannot be changed, and only the [ORD.NET](https://ord.net) anchor signer
+principal can call it. To raise the fill rate per tier, [ORD.NET](https://ord.net) must fund
+additional admission UTXOs at the tier address; each new UTXO is unusable until `144` blocks
+after creation.
 
 ## Package Construction
 
