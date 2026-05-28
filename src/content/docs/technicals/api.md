@@ -2,7 +2,7 @@
 title: API
 description: ORD.NET exposes a wallet-authenticated trading API.
 sidebar:
-  order: 3
+  order: 4
 ---
 
 [ORD.NET](https://ord.net) exposes a wallet-authenticated trading API.
