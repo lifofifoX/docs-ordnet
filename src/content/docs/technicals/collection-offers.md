@@ -97,3 +97,14 @@ The fill is a TRUC v3 1-parent-1-child package. The zero-fee funding parent move
 payment into the offer output; the settlement child spends the offer output, the seller's
 inscription, and the admission UTXO, and pays the package fee. TRUC v3 enforces the 1P1C
 topology at the relay layer, preventing third-party pinning of the parent.
+
+## Unilateral Invalidation
+
+The funding parent spends an [ORD.NET](https://ord.net) anchor UTXO alongside the buyer's payment
+inputs. If an offer needs to be invalidated before the fill package confirms,
+[ORD.NET](https://ord.net) RBFs the parent by double-spending its own anchor input, evicting the
+package from mempool.
+
+This also lets [ORD.NET](https://ord.net), if ever required, cancel collection offers without
+requiring the buyer to spend their payment UTXOs. The buyer takes no action, and their funds
+stay in their wallet.
