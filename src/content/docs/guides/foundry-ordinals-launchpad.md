@@ -45,7 +45,16 @@ Creators "pay" a variable service fee based on mint price, which is directly tak
 
 ## Getting Started
 
-To distribute your Ordinals collection using Foundry, first have a complete, verified Ordinals collection using either parent/child provenance or a gallery. Then, connect the wallet holding the Ordinals collection to be minted, and navigate to 'Foundry' on your Profile. From there, set your date/time of mint, stages, and allowlist allocations.
+To distribute your Ordinals collection using Foundry, first have a complete, verified Ordinals collection using either parent/child provenance or a gallery.
+
+- Connect the wallet holding the Ordinals collection to be minted and go to your Profile
+- Select the ['Foundry' tab](https://ord.net/profile?tab=foundry)
+- Select the '+ Create your first launch' button
+- Pick your collection
+  - Note: if there are items in your collection that you do not want to include in the mint, please move these inscriptions to a separate wallet
+- Input your title, description, and select your desired phases, time slots, and prices
+- Select 'Create draft' and then review
+- Once satisfied and ready, sign your transactions
 
 For larger collections (>1000 inscriptions), we recommend using a Unisat wallet for much faster transaction signing. Xverse only supports 25 PSBT's per batch, while Unisat supports 100 PSBT's per batch and processes much faster.
 
