@@ -16,6 +16,7 @@ Foundry is a unique, first-of-its-kind distribution system for Ordinals. Feature
 - Self-custodial
 - Pre-inscribed Ordinals only
 - Randomized mint; mint never revealed prior to broadcast
+- No sniping
 - Up to 3 mint stages
 - Bulk mint allocations (up to 8) into different wallets
 - Pay with any wallet
@@ -29,6 +30,8 @@ Mints can be carried out in up to 3 stages (e.g., Allowlist/FCFS/Public), each w
 For allowlist and FCFS stages, creators will input values from a `.csv` with eligible Bitcoin addresses and mint count per address in each row. The allowlist stage will show the allocation amount (i.e., over- or under-allocated) for full transparency.
 
 For priced mints, funds from each minted inscription, less fees, will be directly received to the payment address associated with the wallet holding the minted collection.
+
+Foundry mints are exclusively from verified collections on ◉RD. Thus, trading is always live.
 
 ## Fees
 
