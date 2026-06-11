@@ -2,7 +2,7 @@
 title: "F◉UNDRY Ordinals Launchpad"
 description: "Learn how F◉UNDRY works as ◉RD's permissionless Ordinals launchpad for verified collections."
 sidebar:
-  order: 5
+  order: 6
 ---
 
 F◉UNDRY is ◉RD's premier, permissionless distribution system/launchpad for verified Ordinals collections.

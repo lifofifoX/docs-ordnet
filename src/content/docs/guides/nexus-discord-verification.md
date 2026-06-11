@@ -2,7 +2,7 @@
 title: Nexus Discord Verification
 description: Nexus is ◉RD's Discord holder verification solution for Ordinals communities.
 sidebar:
-  order: 6
+  order: 7
 ---
 
 Nexus is ◉RD's Discord holder verification solution for Ordinals communities.
