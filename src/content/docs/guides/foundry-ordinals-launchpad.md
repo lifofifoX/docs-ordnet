@@ -17,7 +17,7 @@ Foundry is a unique, first-of-its-kind distribution system for Ordinals. Feature
 - Pre-inscribed Ordinals only
 - Randomized mint; mint never revealed prior to broadcast
 - No sniping
-- Up to 3 mint stages
+- Up to 4 mint stages, including Presale stage
 - Bulk mint allocations (up to 8) into different wallets
 - Pay with any wallet
 
@@ -25,9 +25,11 @@ For example, if a minter has 8 allocations across profile wallets in a FCFS stag
 
 ## Stages
 
-Mints can be carried out in up to 3 stages (e.g., Allowlist/FCFS/Public), each with its own price, including free, if desired.
+Mints can be carried out in up to 4 stages (i.e., Presale/Allowlist/FCFS/Public), each with its own price, including free, if desired.
 
-For allowlist and FCFS stages, creators will input values from a `.csv` with eligible Bitcoin addresses and mint count per address in each row. The allowlist stage will show the allocation amount (i.e., over- or under-allocated) for full transparency.
+For the optional presale stage, creators can allow buyers to mint their collection ahead of the traditional phases. Presale mints settle immediately, but the inscriptions are timelocked. Delivery of the inscriptions stays locked until the live phase begins. This allows buyers to get a longer window to mint at their convenience.
+
+For presale, allowlist, and FCFS stages, creators will input values from a `.csv` with eligible Bitcoin addresses and mint count per address in each row. The allowlist stage will show the allocation amount (i.e., over- or under-allocated) for full transparency.
 
 For priced mints, funds from each minted inscription, less fees, will be directly received to the payment address associated with the wallet holding the minted collection.
 
